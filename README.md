@@ -1,6 +1,16 @@
 # DianaBot
 Bot of ThroughTheDark's discord, built off the template made by CappeDiem
 
+## note before usage : 
+I'm dumb, so I keep pushing the token by accident, so i put the config file in .gitignore, so before usage, please create a config.json file in the same folder as app.js and put that in it : 
+```json
+{
+    "prefix":"!",
+    "token":"token_of_ur_bot"
+}
+
+```
+
 ## commands : 
 
 ### informations
@@ -10,6 +20,7 @@ Bot of ThroughTheDark's discord, built off the template made by CappeDiem
 * **wip** : show the WorkInProgress playlist on youtube
 * **characters** : show the infos of a character
 * **source_code** :  redirect to the source code of the game Through The Dark
+* **trello** : redirect to the trello of the game
 
 ### fun commands : 
 * **pat** : show your affection to someone by giving them a headpat
