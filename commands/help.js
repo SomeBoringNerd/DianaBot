@@ -7,7 +7,7 @@ exports.run = async (bot, message, args) => {
         .setDescription("prefix of the bot is \"!\"")
         .addField("Fun commands", "funfact, pat", false)
         .addField("Regular commands", "help, characters", false)
-        .addField("Social networks", "game, wip, channel, source_code", false);
+        .addField("Social networks", "game, wip, channel, source_code, trello", false);
     message.channel.send({ embeds: [embed] });
 }
 
