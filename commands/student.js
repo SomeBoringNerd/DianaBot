@@ -10,6 +10,9 @@ let character_name = [
     "??????",
     "\"looking-for-the-truth\"",
     "\"light-that-shine-upon-everything\"",
+    "\"the-spy-from-france\"",
+    "Giyomu",
+    "Charlotte",
 ]
 
 let gender = [
@@ -22,6 +25,9 @@ let gender = [
     "woman",
     "Unknown",
     "probably a man",
+    "probably a woman",
+    "man",
+    "woman",
 ]
 
 let short_description = [
@@ -33,7 +39,10 @@ let short_description = [
     "???",
     "???",
     "the person behind the pseudonyme \"looking-for-the-truth\" is a person that contacted Diana in order to collaborate and find answer about the disappearences. They don't want to meet you for some reasons.",
-    "the person behind the pseudonyme \"light-that-shine-upon-everything\" is someone that take order from \"looking-for-the-truth\", and is kind of a spy. But for now, they don't have a lot of intel about the culprits."
+    "the person behind the pseudonyme \"light-that-shine-upon-everything\" is someone that take order from \"looking-for-the-truth\", and is kind of a spy. But for now, they don't have a lot of intel about the culprits.",
+    "the person behind the pseudonyme \"the-spy-from-france\" is someone that take order from \"looking-for-the-truth\", and is have the task to analyse any clue they can find. For now, they didn't find a lot.",
+    "Giyomu is the librarian of the school. He's a quiet, calm, collected man that can read people's feeling just by the look of their face, how they act, etc... He's also very cultured, and really nerdy.",
+    "Charlotte is the wife of Giyomu. She work at the police station as a field agent.",
 ]
 
 let opinion = [
@@ -45,7 +54,10 @@ let opinion = [
     "???",
     "???",
     "The answer to our questions",
-    "A cool girl with lots of brain power"
+    "A cool girl with lots of brain power",
+    "She has yet to prove her worth.",
+    "\"That Diana girl is very smart. I'm sure she can help around\"",
+    "\"Diana is smart, but I'm sure she's not as smart as people like to say\" \n ||Fuck you Charlotte ?||",
 ]
 
 let romance = [
@@ -58,6 +70,9 @@ let romance = [
     "She's not yours.",
     "no",
     "no",
+    "no",
+    "He's 32, married, with two kids. That's not happening.",
+    "She's 30, married, with two kids. That's not happening.",
 ]
 
 let personality = [
@@ -69,7 +84,10 @@ let personality = [
     "Brutally honest",
     "Cute",
     "Mysterious and creepy at time, but otherwise really helpfull and trust-worthy",
-    "A cool girl with a lot of brain-power."
+    "Smart, and don't talk a lot. They are good at analysing informations and notice patterns.",
+    "She's VERY arrogant, but otherwise cooperative",
+    "Smart, calm, and a giant nerd",
+    "A real bitch. At least she stand to her words.",
 ]
 
 let location = [
@@ -81,7 +99,10 @@ let location = [
     "??????????",
     "??????????",
     "Unknown",
-    "\"A man on a mission is only where we need him to be\""
+    "\"A man on a mission is only where we need him to be\"",
+    "Mostly where we need her. Often on the field looking for clues.",
+    "Mostly in the library, can sometime be seen with his wife outside of the school",
+    "Mostly at the police station, can sometime be seen with her husband outside of the school"
 ]
 
 exports.run = async (bot, message, args) => {

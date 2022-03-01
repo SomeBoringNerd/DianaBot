@@ -5,8 +5,8 @@ let funfacts = [
     "Polemos is the only one with his join message in the general chat",
     "you know, Anakoni was a god once. SomeBoringNerd saw it. He was doing well until 2b2france died.",
     "Sanic_le_harrisson don't speak english very well, but he speak french like a philosopher.",
-    "Every NPC present in the game for now were ideas of SomeBoringNerd's friends.",
-    "The game wouldn't compile on mac and linux because SBN didn't knew a file needed to be named for it to be compiled",
+    "Most NPC present in the game for now were ideas of SomeBoringNerd's friends.",
+    "The game wouldn't compile on mac and linux because SBN didn't knew a file needed to be named for it to be compiled. It still fail for MacOS",
     "I wasn't online until the 9 february of 2022 because SomeBoringNerd wasn't able to run Node.Js on their computer.",
     "Friendly nerds are people that could have been mods if there wasn't enough mods already. If things get wild here, they are the most likely to become part of the moderation",
     "Despite how \"human\" I might look, I'm just a bot that run JavaScript.",
@@ -42,7 +42,10 @@ let funfacts = [
     "Two character that aren't in the game yet, but will be later, have no real implication in the game, but are made after two people that SomeBoringNerd hold deep in her heart",
     "It is heavely implied that Gabriel don't have a gender at all and is not just lying about what's in their pant.",
     "\"Max\" is Mesrob's nickname because SomeBoringNerd keep forgetting it and they can't spell it right",
-    "Flandreu is a femboy in denial"
+    "Flandreu is a femboy in denial",
+    "the characters that hide themselves behind pseudonymes may or may not be people I already know. But either way, they already know who *I* am.",
+    "SomeBoringNerd hate Unity lightning system because it bake really slowly even on their GPU",
+    "SomeBoringNerd made me with Unity. Most models are made with MagicaVoxel, and some textures are made in GIMP. Musics are made in FL Studio.",
 ] // -3 is the number of funfacts
 
 exports.run = async (bot, message, args) => {

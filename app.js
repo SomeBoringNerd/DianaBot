@@ -63,6 +63,13 @@ bot.on('messageCreate', message =>{
     });
 })
 
+bot.on('messageDelete', (messageDelete) => {
+    let moderator_channel_id = '944646597332062249'
+    let moderator_channel = messageDelete.guild.channels.cache.get(moderator_channel_id);
+
+    moderator_channel.send(messageDelete.author.username + " said : \"" + messageDelete.content + "\" in <#" + messageDelete.channel.id + "> but deleted it`");
+});
+
 //Command Manager
 bot.on("messageCreate", async message => {
     //Check if author is a bot or the message was sent in dms and return

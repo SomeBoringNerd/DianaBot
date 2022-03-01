@@ -1,7 +1,7 @@
 exports.run = async (bot, message, args) => {
-    message.channel.send("you can download the game at this link : https://someboringnerd.itch.io/through-the-dark");
+    message.channel.send("here's the latest devlog of the game : https://someboringnerd.itch.io/through-the-dark/devlog/348951/update-1");
 }
 
 exports.help = {
-    name:"game"
+    name:"update"
 }
