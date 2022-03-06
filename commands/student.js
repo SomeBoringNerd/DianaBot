@@ -13,6 +13,7 @@ let character_name = [
     "\"the-spy-from-france\"",
     "Giyomu",
     "Charlotte",
+    "Himiko",
 ]
 
 let gender = [
@@ -27,6 +28,7 @@ let gender = [
     "probably a man",
     "probably a woman",
     "man",
+    "woman",
     "woman",
 ]
 
@@ -43,6 +45,7 @@ let short_description = [
     "the person behind the pseudonyme \"the-spy-from-france\" is someone that take order from \"looking-for-the-truth\", and is have the task to analyse any clue they can find. For now, they didn't find a lot.",
     "Giyomu is the librarian of the school. He's a quiet, calm, collected man that can read people's feeling just by the look of their face, how they act, etc... He's also very cultured, and really nerdy.",
     "Charlotte is the wife of Giyomu. She work at the police station as a field agent.",
+    "Himiko is the dead sister of Giyomu. She was investigating on dissapearences that occured in that exact town 18 years ago, and died seven days before Diana's birth. She would have been 36 this year"
 ]
 
 let opinion = [
@@ -58,6 +61,7 @@ let opinion = [
     "She has yet to prove her worth.",
     "\"That Diana girl is very smart. I'm sure she can help around\"",
     "\"Diana is smart, but I'm sure she's not as smart as people like to say\" \n ||Fuck you Charlotte ?||",
+    "Giyomu discribe her as a smart and cool girl.",
 ]
 
 let romance = [
@@ -73,6 +77,7 @@ let romance = [
     "no",
     "He's 32, married, with two kids. That's not happening.",
     "She's 30, married, with two kids. That's not happening.",
+    "NO.",
 ]
 
 let personality = [
@@ -88,6 +93,7 @@ let personality = [
     "She's VERY arrogant, but otherwise cooperative",
     "Smart, calm, and a giant nerd",
     "A real bitch. At least she stand to her words.",
+    "cool and smart, according to Giyomu",
 ]
 
 let location = [
@@ -102,7 +108,8 @@ let location = [
     "\"A man on a mission is only where we need him to be\"",
     "Mostly where we need her. Often on the field looking for clues.",
     "Mostly in the library, can sometime be seen with his wife outside of the school",
-    "Mostly at the police station, can sometime be seen with her husband outside of the school"
+    "Mostly at the police station, can sometime be seen with her husband outside of the school",
+    "6 feet deep inside the town's graveyard. She's next to the entrance, on your left when you enter. There is flowers on her grave, but according to Gimoyu, he's not the one who replace them every week.",
 ]
 
 exports.run = async (bot, message, args) => {
