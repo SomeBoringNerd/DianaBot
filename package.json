@@ -12,10 +12,12 @@
     "discord-api-types": "^0.22.0",
     "discord.js": "^13.1.0",
     "dot-prop": "^6.0.1",
+    "express-rate-limit": "^6.4.0",
     "is-obj": "^2.0.0",
     "lodash.isequal": "^4.5.0",
     "mime-db": "^1.50.0",
     "mime-types": "^2.1.33",
+    "needle": "^3.1.0",
     "node-fetch": "^3.1.1",
     "ow": "^0.27.0",
     "tr46": "^0.0.3",
@@ -28,7 +30,8 @@
     "ws": "^7.5.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm i discord.js needle @iamtraction/google-translate ws"
   },
   "repository": {
     "type": "git",

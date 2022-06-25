@@ -10,11 +10,11 @@ exports.run = async (bot, message, args) => {
 
     needle('get', 'https://someboringnerd.xyz/api/ttd/student/all').then(r => {
         
-        _max = parseInt(r.body['max']);
+        _max = parseInt(r.body['max']) + 1;
 
         console.log(_max)
 
-        for(let i = 0; i < _max; i++)
+        for(let i = 0; i <= _max; i++)
         {
             _chr.push(r.body['name'][i])
         }
@@ -28,8 +28,14 @@ exports.run = async (bot, message, args) => {
             {
                 formatted_txt += i + " : " + _chr[i] + "\n"
             }
+
+            if(_chr.length == 0){
+                message.channel.send("the api is not working as intended at the moment, please wait a bit.")
+            }else{
+                message.channel.send("here's a list of all character available : \n" + formatted_txt)
+            }
             
-            message.channel.send("here's a list of all character available : \n" + formatted_txt)
+            
         }
         else
         {
