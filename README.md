@@ -18,7 +18,7 @@ I'm dumb, so I keep pushing the token by accident, so i put the config file in .
 * **channel** : show SomeBoringNerd's channel
 * **update** :  display the itch.io page of the game
 * **wip** : show the WorkInProgress playlist on youtube
-* **characters** : show the infos of a character
+* **character** : show the infos of a character, or the list of character if no student id is provided
 * **source_code** :  redirect to the source code of the game Through The Dark
 * **trello** : redirect to the trello of the game
 * **update** : redirect to the latest update post

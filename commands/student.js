@@ -32,7 +32,7 @@ exports.run = async (bot, message, args) => {
             if(_chr.length == 0){
                 message.channel.send("the api is not working as intended at the moment, please wait a bit.")
             }else{
-                message.channel.send("here's a list of all character available : \n" + formatted_txt)
+                message.channel.send("here's a list of all character available : \n" + formatted_txt + '\n/character %id%')
             }
             
             
@@ -45,7 +45,7 @@ exports.run = async (bot, message, args) => {
             needle('get', 'https://someboringnerd.xyz/api/ttd/student?id=' + character_id).then(r => 
             {
                 if(r.body['name'] == undefined){
-                    message.channel.send("please enter a character id between 0 and " + _max + ".\n\n do /characters to get a list of tha available characters and their id")
+                    message.channel.send("please enter a character id between 0 and " + _max + ".\n\n do /character to get a list of tha available characters and their id")
                 }else{
                     const embed = new MessageEmbed()
                         .setTitle(r.body['name'])

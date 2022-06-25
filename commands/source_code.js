@@ -1,5 +1,5 @@
 exports.run = async (bot, message, args) => {
-    message.channel.send("wanna see the source code of the game ? here you go : \n\n https://github.com/SomeBoringNerd/throughthedark");
+    message.channel.send("the source code of the game is currently closed. Once the game is finished, released, and there's no game breaking glitch anymore, the source code will be made public.");
 }
 
 exports.help = {
